@@ -1,0 +1,608 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Copilot CLI//Fabric 8-Week Plan//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Microsoft Fabric 8-Week Learning Plan
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:fabric-w1-s1@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260601T120000Z
+DTEND:20260601T133000Z
+SUMMARY:[W1-理论] Fabric 大局观 & OneLake 基础
+DESCRIPTION:读文档/看视频，建立心智模型\n\n本周主题: Fabric 大局观 & OneLake 基础\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W1-理论] Fabric 大局观 & OneLake 基础
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w1-s2@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260603T120000Z
+DTEND:20260603T133000Z
+SUMMARY:[W1-动手1] Fabric 大局观 & OneLake 基础
+DESCRIPTION:跟着官方教程做第一个 lab\n\n本周主题: Fabric 大局观 & OneLake 基础\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W1-动手1] Fabric 大局观 & OneLake 基础
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w1-s3@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260605T120000Z
+DTEND:20260605T133000Z
+SUMMARY:[W1-深挖] Fabric 大局观 & OneLake 基础
+DESCRIPTION:踩坑/排错/对比文档以外的细节\n\n本周主题: Fabric 大局观 & OneLake 基础\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W1-深挖] Fabric 大局观 & OneLake 基础
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w1-s4@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260606T010000Z
+DTEND:20260606T030000Z
+SUMMARY:[W1-Lab] Fabric 大局观 & OneLake 基础
+DESCRIPTION:周末长 lab：综合本周知识\n\n本周主题: Fabric 大局观 & OneLake 基础\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W1-Lab] Fabric 大局观 & OneLake 基础
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w1-s5@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260607T060000Z
+DTEND:20260607T080000Z
+SUMMARY:[W1-整合] Fabric 大局观 & OneLake 基础
+DESCRIPTION:复盘 + 写笔记 + 5W 套用\n\n本周主题: Fabric 大局观 & OneLake 基础\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W1-整合] Fabric 大局观 & OneLake 基础
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w2-s6@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260608T120000Z
+DTEND:20260608T133000Z
+SUMMARY:[W2-理论] Lakehouse / Delta / Spark 实战
+DESCRIPTION:读文档/看视频，建立心智模型\n\n本周主题: Lakehouse / Delta / Spark 实战\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W2-理论] Lakehouse / Delta / Spark 实战
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w2-s7@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260610T120000Z
+DTEND:20260610T133000Z
+SUMMARY:[W2-动手1] Lakehouse / Delta / Spark 实战
+DESCRIPTION:跟着官方教程做第一个 lab\n\n本周主题: Lakehouse / Delta / Spark 实战\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W2-动手1] Lakehouse / Delta / Spark 实战
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w2-s8@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260612T120000Z
+DTEND:20260612T133000Z
+SUMMARY:[W2-深挖] Lakehouse / Delta / Spark 实战
+DESCRIPTION:踩坑/排错/对比文档以外的细节\n\n本周主题: Lakehouse / Delta / Spark 实战\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W2-深挖] Lakehouse / Delta / Spark 实战
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w2-s9@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260613T010000Z
+DTEND:20260613T030000Z
+SUMMARY:[W2-Lab] Lakehouse / Delta / Spark 实战
+DESCRIPTION:周末长 lab：综合本周知识\n\n本周主题: Lakehouse / Delta / Spark 实战\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W2-Lab] Lakehouse / Delta / Spark 实战
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w2-s10@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260614T060000Z
+DTEND:20260614T080000Z
+SUMMARY:[W2-整合] Lakehouse / Delta / Spark 实战
+DESCRIPTION:复盘 + 写笔记 + 5W 套用\n\n本周主题: Lakehouse / Delta / Spark 实战\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W2-整合] Lakehouse / Delta / Spark 实战
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w3-s11@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260615T120000Z
+DTEND:20260615T133000Z
+SUMMARY:[W3-理论] Warehouse + T-SQL + Cross-DB Query
+DESCRIPTION:读文档/看视频，建立心智模型\n\n本周主题: Warehouse + T-SQL + Cross-DB Query\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W3-理论] Warehouse + T-SQL + Cross-DB Query
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w3-s12@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260617T120000Z
+DTEND:20260617T133000Z
+SUMMARY:[W3-动手1] Warehouse + T-SQL + Cross-DB Query
+DESCRIPTION:跟着官方教程做第一个 lab\n\n本周主题: Warehouse + T-SQL + Cross-DB Query\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W3-动手1] Warehouse + T-SQL + Cross-DB Query
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w3-s13@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260619T120000Z
+DTEND:20260619T133000Z
+SUMMARY:[W3-深挖] Warehouse + T-SQL + Cross-DB Query
+DESCRIPTION:踩坑/排错/对比文档以外的细节\n\n本周主题: Warehouse + T-SQL + Cross-DB Query\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W3-深挖] Warehouse + T-SQL + Cross-DB Query
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w3-s14@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260620T010000Z
+DTEND:20260620T030000Z
+SUMMARY:[W3-Lab] Warehouse + T-SQL + Cross-DB Query
+DESCRIPTION:周末长 lab：综合本周知识\n\n本周主题: Warehouse + T-SQL + Cross-DB Query\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W3-Lab] Warehouse + T-SQL + Cross-DB Query
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w3-s15@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260621T060000Z
+DTEND:20260621T080000Z
+SUMMARY:[W3-整合] Warehouse + T-SQL + Cross-DB Query
+DESCRIPTION:复盘 + 写笔记 + 5W 套用\n\n本周主题: Warehouse + T-SQL + Cross-DB Query\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W3-整合] Warehouse + T-SQL + Cross-DB Query
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w4-s16@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260622T120000Z
+DTEND:20260622T133000Z
+SUMMARY:[W4-理论] Data Factory + Pipeline 编排
+DESCRIPTION:读文档/看视频，建立心智模型\n\n本周主题: Data Factory + Pipeline 编排\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W4-理论] Data Factory + Pipeline 编排
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w4-s17@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260624T120000Z
+DTEND:20260624T133000Z
+SUMMARY:[W4-动手1] Data Factory + Pipeline 编排
+DESCRIPTION:跟着官方教程做第一个 lab\n\n本周主题: Data Factory + Pipeline 编排\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W4-动手1] Data Factory + Pipeline 编排
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w4-s18@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260626T120000Z
+DTEND:20260626T133000Z
+SUMMARY:[W4-深挖] Data Factory + Pipeline 编排
+DESCRIPTION:踩坑/排错/对比文档以外的细节\n\n本周主题: Data Factory + Pipeline 编排\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W4-深挖] Data Factory + Pipeline 编排
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w4-s19@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260627T010000Z
+DTEND:20260627T030000Z
+SUMMARY:[W4-Lab] Data Factory + Pipeline 编排
+DESCRIPTION:周末长 lab：综合本周知识\n\n本周主题: Data Factory + Pipeline 编排\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W4-Lab] Data Factory + Pipeline 编排
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w4-s20@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260628T060000Z
+DTEND:20260628T080000Z
+SUMMARY:[W4-整合] Data Factory + Pipeline 编排
+DESCRIPTION:复盘 + 写笔记 + 5W 套用\n\n本周主题: Data Factory + Pipeline 编排\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W4-整合] Data Factory + Pipeline 编排
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w5-s21@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260629T120000Z
+DTEND:20260629T133000Z
+SUMMARY:[W5-理论] Power BI + DirectLake 语义模型
+DESCRIPTION:读文档/看视频，建立心智模型\n\n本周主题: Power BI + DirectLake 语义模型\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W5-理论] Power BI + DirectLake 语义模型
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w5-s22@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260701T120000Z
+DTEND:20260701T133000Z
+SUMMARY:[W5-动手1] Power BI + DirectLake 语义模型
+DESCRIPTION:跟着官方教程做第一个 lab\n\n本周主题: Power BI + DirectLake 语义模型\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W5-动手1] Power BI + DirectLake 语义模型
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w5-s23@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260703T120000Z
+DTEND:20260703T133000Z
+SUMMARY:[W5-深挖] Power BI + DirectLake 语义模型
+DESCRIPTION:踩坑/排错/对比文档以外的细节\n\n本周主题: Power BI + DirectLake 语义模型\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W5-深挖] Power BI + DirectLake 语义模型
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w5-s24@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260704T010000Z
+DTEND:20260704T030000Z
+SUMMARY:[W5-Lab] Power BI + DirectLake 语义模型
+DESCRIPTION:周末长 lab：综合本周知识\n\n本周主题: Power BI + DirectLake 语义模型\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W5-Lab] Power BI + DirectLake 语义模型
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w5-s25@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260705T060000Z
+DTEND:20260705T080000Z
+SUMMARY:[W5-整合] Power BI + DirectLake 语义模型
+DESCRIPTION:复盘 + 写笔记 + 5W 套用\n\n本周主题: Power BI + DirectLake 语义模型\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W5-整合] Power BI + DirectLake 语义模型
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w6-s26@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260706T120000Z
+DTEND:20260706T133000Z
+SUMMARY:[W6-理论] Mirroring 零 ETL（深度周）
+DESCRIPTION:读文档/看视频，建立心智模型\n\n本周主题: Mirroring 零 ETL（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W6-理论] Mirroring 零 ETL（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w6-s27@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260708T120000Z
+DTEND:20260708T133000Z
+SUMMARY:[W6-动手1] Mirroring 零 ETL（深度周）
+DESCRIPTION:跟着官方教程做第一个 lab\n\n本周主题: Mirroring 零 ETL（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W6-动手1] Mirroring 零 ETL（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w6-s28@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260710T120000Z
+DTEND:20260710T133000Z
+SUMMARY:[W6-深挖] Mirroring 零 ETL（深度周）
+DESCRIPTION:踩坑/排错/对比文档以外的细节\n\n本周主题: Mirroring 零 ETL（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W6-深挖] Mirroring 零 ETL（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w6-s29@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260711T010000Z
+DTEND:20260711T030000Z
+SUMMARY:[W6-Lab] Mirroring 零 ETL（深度周）
+DESCRIPTION:周末长 lab：综合本周知识\n\n本周主题: Mirroring 零 ETL（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W6-Lab] Mirroring 零 ETL（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w6-s30@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260712T060000Z
+DTEND:20260712T080000Z
+SUMMARY:[W6-整合] Mirroring 零 ETL（深度周）
+DESCRIPTION:复盘 + 写笔记 + 5W 套用\n\n本周主题: Mirroring 零 ETL（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W6-整合] Mirroring 零 ETL（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w7-s31@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260713T120000Z
+DTEND:20260713T133000Z
+SUMMARY:[W7-理论] Data Agents + Fabric IQ + MCP（深度周）
+DESCRIPTION:读文档/看视频，建立心智模型\n\n本周主题: Data Agents + Fabric IQ + MCP（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W7-理论] Data Agents + Fabric IQ + MCP（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w7-s32@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260715T120000Z
+DTEND:20260715T133000Z
+SUMMARY:[W7-动手1] Data Agents + Fabric IQ + MCP（深度周）
+DESCRIPTION:跟着官方教程做第一个 lab\n\n本周主题: Data Agents + Fabric IQ + MCP（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W7-动手1] Data Agents + Fabric IQ + MCP（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w7-s33@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260717T120000Z
+DTEND:20260717T133000Z
+SUMMARY:[W7-深挖] Data Agents + Fabric IQ + MCP（深度周）
+DESCRIPTION:踩坑/排错/对比文档以外的细节\n\n本周主题: Data Agents + Fabric IQ + MCP（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W7-深挖] Data Agents + Fabric IQ + MCP（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w7-s34@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260718T010000Z
+DTEND:20260718T030000Z
+SUMMARY:[W7-Lab] Data Agents + Fabric IQ + MCP（深度周）
+DESCRIPTION:周末长 lab：综合本周知识\n\n本周主题: Data Agents + Fabric IQ + MCP（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W7-Lab] Data Agents + Fabric IQ + MCP（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w7-s35@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260719T060000Z
+DTEND:20260719T080000Z
+SUMMARY:[W7-整合] Data Agents + Fabric IQ + MCP（深度周）
+DESCRIPTION:复盘 + 写笔记 + 5W 套用\n\n本周主题: Data Agents + Fabric IQ + MCP（深度周）\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W7-整合] Data Agents + Fabric IQ + MCP（深度周）
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w8-s36@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260720T120000Z
+DTEND:20260720T133000Z
+SUMMARY:[W8-理论] Real-Time Intelligence + 综合项目
+DESCRIPTION:读文档/看视频，建立心智模型\n\n本周主题: Real-Time Intelligence + 综合项目\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W8-理论] Real-Time Intelligence + 综合项目
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w8-s37@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260722T120000Z
+DTEND:20260722T133000Z
+SUMMARY:[W8-动手1] Real-Time Intelligence + 综合项目
+DESCRIPTION:跟着官方教程做第一个 lab\n\n本周主题: Real-Time Intelligence + 综合项目\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W8-动手1] Real-Time Intelligence + 综合项目
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w8-s38@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260724T120000Z
+DTEND:20260724T133000Z
+SUMMARY:[W8-深挖] Real-Time Intelligence + 综合项目
+DESCRIPTION:踩坑/排错/对比文档以外的细节\n\n本周主题: Real-Time Intelligence + 综合项目\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W8-深挖] Real-Time Intelligence + 综合项目
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w8-s39@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260725T010000Z
+DTEND:20260725T030000Z
+SUMMARY:[W8-Lab] Real-Time Intelligence + 综合项目
+DESCRIPTION:周末长 lab：综合本周知识\n\n本周主题: Real-Time Intelligence + 综合项目\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W8-Lab] Real-Time Intelligence + 综合项目
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabric-w8-s40@learn-fabric.local
+DTSTAMP:20260525T120000Z
+DTSTART:20260726T060000Z
+DTEND:20260726T080000Z
+SUMMARY:[W8-整合] Real-Time Intelligence + 综合项目
+DESCRIPTION:复盘 + 写笔记 + 5W 套用\n\n本周主题: Real-Time Intelligence + 综合项目\n参考: see deep-dives/ and fabric-learning-plan.md
+LOCATION:Home Office
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder - [W8-整合] Real-Time Intelligence + 综合项目
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
