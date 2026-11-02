@@ -37,8 +37,12 @@ microsoft-fabric-learning-plan/
 │   ├── customer-conversation-5w.md       客户对话 5W 框架
 │   └── databricks-to-fabric.md           Databricks 迁移 / 共存方案
 └── comparisons/
-    └── fabric-vs-competitors-matrix.md   Fabric vs Databricks/Snowflake/AWS/GCP 详细矩阵
+    ├── fabric-vs-competitors-matrix.md       Fabric vs Databricks/Snowflake/AWS/GCP 详细矩阵
+    ├── fabric-vs-4clouds-battlecards-2026.md 四大云数智竞对深度拆解与售前 Battlecards (2026-11-03 · 31/32 = 96.88%)
+    └── fabric-vs-4clouds-battlecards-2026.en.md 4-Cloud Competitive Battlecards (English · 2026-11-03)
 ```
+
+[![Data Lab Executive Visual Summary](assets/svg/01-data-lab-executive-summary-2026-11-03.svg)](assets/svg/01-data-lab-executive-summary-2026-11-03.svg)
 
 ---
 
