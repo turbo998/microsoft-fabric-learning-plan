@@ -37,14 +37,16 @@ microsoft-fabric-learning-plan/
 │   ├── customer-conversation-5w.md       客户对话 5W 框架
 │   └── databricks-to-fabric.md           Databricks 迁移 / 共存方案
 └── comparisons/
-    ├── fabric-vs-competitors-matrix.md       Fabric vs Databricks/Snowflake/AWS/GCP 详细矩阵
-    ├── fabric-vs-4clouds-battlecards-2026.md 四大云数智竞对深度拆解与售前 Battlecards (2026-11-03/04 · 35/36 = 97.22%)
-    └── fabric-vs-4clouds-battlecards-2026.en.md 4-Cloud Competitive Battlecards (English · 2026-11-03/04)
+    ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
+    ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
+    ├── fabric-vs-competitors-matrix.md                  Fabric vs Databricks/Snowflake/AWS/GCP 详细矩阵
+    ├── fabric-vs-4clouds-battlecards-2026.md            四大云数智竞对深度拆解与售前 Battlecards (2026-11-08/09 · 47/48 = 97.92%)
+    └── fabric-vs-4clouds-battlecards-2026.en.md         4-Cloud Competitive Battlecards (English · 2026-11-08/09)
 ```
 
-[![Data Lab Executive Visual Summary](assets/svg/01-data-lab-executive-summary-2026-11-03.svg)](assets/svg/01-data-lab-executive-summary-2026-11-03.svg)
+[![Data Lab Executive Visual Summary](assets/svg/01-data-lab-executive-summary-2026-11-08.svg)](assets/svg/01-data-lab-executive-summary-2026-11-08.svg)
 
-[![Rayfin SDK & Cross-Workspace Eventhouse Observability Architecture](assets/svg/06-rayfin-agentic-apps-eventhouse-observability.svg)](assets/svg/06-rayfin-agentic-apps-eventhouse-observability.svg)
+[![OneLake IQ Sharing & Fabric IQ Selection FAQ Architecture](assets/svg/09-onelake-iq-sharing-salesforce-sovereign-faq.svg)](assets/svg/09-onelake-iq-sharing-salesforce-sovereign-faq.svg)
 
 ---
 
