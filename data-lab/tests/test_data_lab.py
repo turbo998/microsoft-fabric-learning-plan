@@ -166,12 +166,45 @@ class TestDataLabBenchmarkSuite(unittest.TestCase):
         self.assertTrue(sim["foundry_iq_guardrail"]["compliant"])
         self.assertEqual(sim["decision_routing"]["action"], "Act automatically")
 
-    def test_scenario_matrix_52_cases_and_explicit_miss(self) -> None:
+    def test_core_banking_oracle_open_mirroring_cdc_ontology_simulation(self) -> None:
+        sim = simulate_ontology_incident("core_banking_oracle_open_mirroring_cdc")
+        self.assertEqual(sim["telemetry"]["fabric_mirroring_replication_compute_cost_usd"], 0)
+        self.assertEqual(sim["telemetry"]["oltp_change_rate_tps"], 48000)
+        self.assertEqual(sim["multi_agent_plan"]["cdc_pipeline_monthly_tco_saved_usd"], 11400)
+        self.assertTrue(sim["foundry_iq_guardrail"]["pan_cvv_column_level_masked"])
+        self.assertTrue(sim["foundry_iq_guardrail"]["retail_payroll_account_freeze_blocked"])
+        self.assertTrue(sim["foundry_iq_guardrail"]["compliant"])
+        self.assertEqual(sim["decision_routing"]["action"], "Confirm")
+
+    def test_omni_channel_snowflake_iceberg_onelake_xtable_ontology_simulation(self) -> None:
+        sim = simulate_ontology_incident("omni_channel_snowflake_iceberg_onelake_xtable")
+        self.assertEqual(sim["telemetry"]["active_skus_evaluated"], 85000)
+        self.assertEqual(sim["telemetry"]["onelake_xtable_metadata_translation_ms"], 14)
+        self.assertEqual(sim["multi_agent_plan"]["format_conversion_compute_cost_usd"], 0)
+        self.assertTrue(sim["foundry_iq_guardrail"]["minimum_advertised_price_floor_enforced"])
+        self.assertTrue(sim["foundry_iq_guardrail"]["compliant"])
+        self.assertEqual(sim["decision_routing"]["action"], "Act automatically")
+        self.assertEqual(sim["decision_routing"]["projected_savings_usd"], 1620000)
+
+    def test_wealth_advisory_htap_diskann_vs_lakebase_unistore_ontology_simulation(self) -> None:
+        sim = simulate_ontology_incident("wealth_advisory_htap_diskann_vs_lakebase_unistore")
+        self.assertEqual(sim["telemetry"]["indexed_compliance_vectors_millions"], 120)
+        self.assertEqual(sim["telemetry"]["diskann_ssd_vector_search_ms"], 16)
+        self.assertEqual(sim["telemetry"]["ram_saved_vs_hnsw_pct"], 92.0)
+        self.assertEqual(sim["multi_agent_plan"]["vector_htap_monthly_tco_saved_usd"], 8640)
+        self.assertTrue(sim["foundry_iq_guardrail"]["retail_leveraged_etf_auto_buy_blocked"])
+        self.assertTrue(sim["foundry_iq_guardrail"]["compliant"])
+        self.assertEqual(sim["decision_routing"]["action"], "Act automatically")
+        self.assertEqual(sim["decision_routing"]["end_to_end_latency_ms"], 450)
+        self.assertEqual(sim["decision_routing"]["projected_savings_usd"], 1950000)
+
+    def test_scenario_matrix_64_cases_and_explicit_miss(self) -> None:
         matrix = evaluate_scenario_matrix()
-        self.assertEqual(matrix["total_scenarios"], 52)
-        self.assertEqual(matrix["passed_scenarios"], 51)
+        self.assertEqual(matrix["total_scenarios"], 64)
+        self.assertEqual(matrix["passed_scenarios"], 63)
         self.assertEqual(matrix["failed_scenarios"], 1)
-        self.assertAlmostEqual(matrix["accuracy_pct"], 98.08, places=2)
+        self.assertAlmostEqual(matrix["accuracy_pct"], 98.44, places=2)
+        self.assertEqual(matrix["avg_latency_ms"], 521.0)
         misses = [s for s in matrix["scenarios"] if not s["correct"]]
         self.assertEqual(len(misses), 1)
         self.assertEqual(misses[0]["id"], "DL-23")
@@ -253,6 +286,39 @@ class TestDataLabBenchmarkSuite(unittest.TestCase):
         self.assertIn("Eventhouse KQL", by_id["DL-51"]["expected"])
         self.assertIn("Amsterdam-IXP SRv6 Steer", by_id["DL-52"]["expected"])
 
+    def test_mirroring_zero_etl_vs_cdc_openflow_lakeflow_2026_11_09_r3_scenarios(self) -> None:
+        matrix = evaluate_scenario_matrix()
+        by_id = {s["id"]: s for s in matrix["scenarios"]}
+        for sid in ("DL-53", "DL-54", "DL-55", "DL-56"):
+            self.assertIn(sid, by_id)
+            self.assertTrue(by_id[sid]["correct"])
+        self.assertIn("$0 replication compute", by_id["DL-53"]["expected"])
+        self.assertIn("Oracle GoldenGate 23ai", by_id["DL-54"]["expected"])
+        self.assertIn("1GB Free Fabric SQL", by_id["DL-55"]["expected"])
+        self.assertIn("Save $2.35M Default", by_id["DL-56"]["expected"])
+
+    def test_onelake_iceberg_delta_uniform_polaris_s3tables_2026_11_09_r4_scenarios(self) -> None:
+        matrix = evaluate_scenario_matrix()
+        by_id = {s["id"]: s for s in matrix["scenarios"]}
+        for sid in ("DL-57", "DL-58", "DL-59", "DL-60"):
+            self.assertIn(sid, by_id)
+            self.assertTrue(by_id[sid]["correct"])
+        self.assertIn("OneLake XTable Bidirectional Virtualization", by_id["DL-57"]["expected"])
+        self.assertIn("Delta UniForm", by_id["DL-58"]["expected"])
+        self.assertIn("AWS S3 Tables", by_id["DL-59"]["expected"])
+        self.assertIn("Protect $1.62M Margin", by_id["DL-60"]["expected"])
+
+    def test_htap_vector_diskann_vs_lakebase_unistore_2026_11_09_r5_scenarios(self) -> None:
+        matrix = evaluate_scenario_matrix()
+        by_id = {s["id"]: s for s in matrix["scenarios"]}
+        for sid in ("DL-61", "DL-62", "DL-63", "DL-64"):
+            self.assertIn(sid, by_id)
+            self.assertTrue(by_id[sid]["correct"])
+        self.assertIn("SSD-backed Vamana + PQ", by_id["DL-61"]["expected"])
+        self.assertIn("Databricks Lakebase", by_id["DL-62"]["expected"])
+        self.assertIn("Snowflake Unistore Hybrid Tables", by_id["DL-63"]["expected"])
+        self.assertIn("Protect $1.95M Exposure", by_id["DL-64"]["expected"])
+
     def test_perturbation_and_scaling_latency(self) -> None:
         pert = evaluate_perturbation_robustness()
         self.assertEqual(len(pert), 6)
@@ -270,7 +336,18 @@ class TestDataLabBenchmarkSuite(unittest.TestCase):
         self.assertTrue(out_path.exists())
         loaded = json.loads(out_path.read_text(encoding="utf-8"))
         self.assertEqual(loaded["report_id"], report["report_id"])
-        self.assertEqual(loaded["scenario_evaluation"]["passed_scenarios"], 51)
+        self.assertEqual(loaded["scenario_evaluation"]["passed_scenarios"], 63)
+        self.assertEqual(loaded["scenario_evaluation"]["routing_matrix_denominator_n"], 64)
+        self.assertEqual(loaded["scenario_evaluation"]["routing_matrix_mean_modeled_latency_ms"], 521.0)
+        self.assertEqual(loaded["ontology_simulations_summary"]["total_ontology_simulations"], 12)
+        self.assertEqual(loaded["ontology_simulations_summary"]["ontology_simulation_mean_modeled_latency_ms"], 572.92)
+        self.assertEqual(loaded["ontology_simulations_summary"]["r4_11_simulation_mean_modeled_latency_ms"], 584.09)
+        self.assertEqual(loaded["ontology_simulations_summary"]["r3_10_simulation_mean_modeled_latency_ms"], 596.0)
+        refs = loaded["provenance"]["vendor_published_spec_references"]
+        self.assertEqual(len(refs), 8)
+        for ref in refs:
+            self.assertTrue(ref["official_url"].startswith("https://"))
+            self.assertEqual(ref["as_of"], "2026-11-08")
         self.assertIn("retail_cross_cloud_planning", loaded["ontology_simulations"])
         self.assertIn("financial_multi_cloud_fraud", loaded["ontology_simulations"])
         self.assertIn("finops_rayfin_observability", loaded["ontology_simulations"])
@@ -278,6 +355,9 @@ class TestDataLabBenchmarkSuite(unittest.TestCase):
         self.assertIn("manufacturing_digital_twin_zeroprov", loaded["ontology_simulations"])
         self.assertIn("supply_chain_iq_sharing_salesforce", loaded["ontology_simulations"])
         self.assertIn("telecom_5g_eventhouse_vs_dynamic_tables", loaded["ontology_simulations"])
+        self.assertIn("core_banking_oracle_open_mirroring_cdc", loaded["ontology_simulations"])
+        self.assertIn("omni_channel_snowflake_iceberg_onelake_xtable", loaded["ontology_simulations"])
+        self.assertIn("wealth_advisory_htap_diskann_vs_lakebase_unistore", loaded["ontology_simulations"])
 
 
 if __name__ == "__main__":
