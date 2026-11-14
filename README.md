@@ -39,9 +39,9 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
-    ├── fabric-seismic-tsunami-early-warning-smart-cable-das-gnss-vs-4clouds-faq.md ★ R65 最新：地震海啸秒级预警 & 海底 SMART 光缆 1.28亿向量选型 FAQ
+    ├── fabric-seawater-desalination-swro-membrane-fouling-brine-mining-vs-4clouds-faq.md ★ R66 150单测里程碑：大型海水淡化 SWRO & 防赤潮污堵 1.32亿向量选型 FAQ
     ├── fabric-vs-competitors-matrix.md                  Fabric vs Databricks/Snowflake/AWS/GCP 详细矩阵
-    ├── fabric-vs-4clouds-battlecards-2026.md            四大云数智竞对深度拆解与售前 Battlecards (2026-11-14 · 303/304 = 99.67%)
+    ├── fabric-vs-4clouds-battlecards-2026.md            四大云数智竞对深度拆解与售前 Battlecards (2026-11-14 · 307/308 = 99.68%)
     └── fabric-vs-4clouds-battlecards-2026.en.md         4-Cloud Competitive Battlecards (English · 2026-11-14)
 ```
 
