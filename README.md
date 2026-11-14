@@ -39,6 +39,7 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
+    ├── fabric-cryogenic-air-separation-asu-mac-surge-reboiler-hydrocarbon-argon-vs-4clouds-faq.md ★ R85 85轮、90篇FAQ & 2.08亿向量里程碑：特大型深冷空分 & 主冷防爆选型 FAQ
     ├── fabric-aluminum-smelting-hall-heroult-potline-anode-effect-mhd-cbam-vs-4clouds-faq.md ★ R84 380场景、198.0ms均值、99.74%精度 & 2.04亿向量里程碑：500kA电解铝 & MHD稳槽选型 FAQ
     ├── fabric-low-carbon-cement-rotary-kiln-calciner-rdf-vrm-oxyfuel-ccus-vs-4clouds-faq.md ★ R83 2.00亿向量、90本体 & 200.0ms均值里程碑：低碳水泥回转窑 & 富氧CCUS选型 FAQ
     ├── fabric-copper-flash-smelting-converter-so2-electrorefining-lme-vs-4clouds-faq.md ★ R82 85规格、90架构图 & 1.96亿向量里程碑：铜闪速熔炼 & 180万槽电解精炼选型 FAQ
@@ -47,7 +48,7 @@ microsoft-fabric-learning-plan/
     ├── fabric-fertilizer-potash-mining-phosphoric-acid-npk-granulation-vs-4clouds-faq.md ★ R79 360场景 & 1.84亿向量里程碑：千米深井钾盐矿 & 湿法磷酸防糊布选型 FAQ
     ├── fabric-synchrotron-xfel-particle-accelerator-beam-orbit-ptychography-vs-4clouds-faq.md ★ R78 85本体 & 1.80亿向量里程碑：第四代同步辐射光源 & XFEL 亚微米稳轨选型 FAQ
     ├── fabric-vs-competitors-matrix.md                  Fabric vs Databricks/Snowflake/AWS/GCP 详细矩阵
-    ├── fabric-vs-4clouds-battlecards-2026.md            四大云数智竞对深度拆解与售前 Battlecards (2026-11-15 · 379/380 = 99.74%)
+    ├── fabric-vs-4clouds-battlecards-2026.md            四大云数智竞对深度拆解与售前 Battlecards (2026-11-15 · 383/384 = 99.74%)
     └── fabric-vs-4clouds-battlecards-2026.en.md         4-Cloud Competitive Battlecards (English · 2026-11-14)
 ```
 
