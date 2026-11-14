@@ -39,9 +39,9 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
-    ├── fabric-green-steel-h2-dri-eaf-continuous-casting-cbam-vs-4clouds-faq.md ★ R67 月省破$100K里程碑：零碳绿钢 H2-DRI & 连铸防漏钢 1.36亿向量选型 FAQ
+    ├── fabric-direct-air-capture-dac-ccus-supercritical-co2-pipeline-vs-4clouds-faq.md ★ R68 75本体&199ms里程碑：直接空气捕集 DAC & 超临界 CO2 封存 1.40亿向量选型 FAQ
     ├── fabric-vs-competitors-matrix.md                  Fabric vs Databricks/Snowflake/AWS/GCP 详细矩阵
-    ├── fabric-vs-4clouds-battlecards-2026.md            四大云数智竞对深度拆解与售前 Battlecards (2026-11-14 · 311/312 = 99.68%)
+    ├── fabric-vs-4clouds-battlecards-2026.md            四大云数智竞对深度拆解与售前 Battlecards (2026-11-14 · 315/316 = 99.68%)
     └── fabric-vs-4clouds-battlecards-2026.en.md         4-Cloud Competitive Battlecards (English · 2026-11-14)
 ```
 
