@@ -39,6 +39,7 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
+    ├── fabric-circrna-mrna-enzymatic-ivt-dsrna-tff-microfluidic-lnp-vs-4clouds-faq.md ★ R106 99.79%准确率新高 (467/468!)、本体均值150.0ms整数大关、230单测、月省破$220K ($220.8K/月!)、2.92亿向量 & 38ms闭环七冠里程碑：环形RNA无细胞IVT & PIE环化超滤选型 FAQ
     ├── fabric-high-temp-superconductor-rebco-pld-tape-ibad-quench-magnet-vs-4clouds-faq.md ★ R105 第105轮大关 (R105!)、110篇双语FAQ、2.88亿向量、167.0ms矩阵均值、151.0ms本体均值、40ms闭环 & 省93.9% TCO七冠里程碑：第二代高温超导带材REBCO脉冲激光沉积PLD & 20T聚变磁体防失超选型 FAQ
     ├── fabric-perovskite-silicon-tandem-solar-slot-die-crystallization-ald-vs-4clouds-faq.md ★ R104 460场景大关 (n=460!)、2.84亿向量、168.0ms矩阵均值、152.0ms本体均值、42ms闭环 & 省93.9% TCO六冠里程碑：钙钛矿-晶硅叠层光伏狭缝涂布 & VASP真空闪蒸成核选型 FAQ
     ├── fabric-solid-state-battery-sulfide-argyrodite-dry-electrode-h2s-dendrite-vs-4clouds-faq.md ★ R103 110大行业本体 (n=110!)、矩阵均值破170ms (169.0ms!)、$35.15M SLA、2.80亿向量、153.0ms本体均值、44ms闭环 & 省93.8% TCO七冠里程碑：全固态硫化物电池干法电极 & 500MPa WIP防枝晶选型 FAQ
