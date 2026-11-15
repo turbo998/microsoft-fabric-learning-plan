@@ -39,6 +39,7 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
+    ├── fabric-single-crystal-superalloy-turbine-blade-bridgman-casting-tbc-vs-4clouds-faq.md ★ 🏆 R119 256项单测2^8里程碑 (256/256!)、520场景整数大关 (519/520 = 99.81%!)、省94.5% TCO历史新高 ($245.4K/月!)、3.44亿向量、153.0ms路由均值、137.0ms本体均值 & 12ms闭环七冠里程碑：航发单晶涡轮叶片CMSX-4/Rene N5定向凝固防雀斑、固溶防初熔 & EB-PVD热障涂层选型 FAQ
     ├── fabric-gan-on-si-qst-mocvd-epitaxy-wafer-bow-dynamic-rdson-vs-4clouds-faq.md ★ 🏆 R118 99.81%路由准确率历史新高 (515/516!)、125大行业本体里程碑 (n=125!)、路由均值正式跌破155ms (154.0ms!)、端到端闭环正式跌破15ms (14ms!)、3.40亿向量、138.0ms本体均值 & 省94.4% TCO七冠里程碑：200mm/300mm硅基氮化镓GaN-on-Si/QST超晶格原位防翘曲、动态Rdson电流崩塌抑制 & 2DEG选型 FAQ
     ├── fabric-liquid-metal-embrittlement-lme-galvanneal-3rd-gen-ahss-spot-welding-vs-4clouds-faq.md ★ 🏆 R117 第125张SVG里程碑 (125-...svg!)、第120项官方规格、本体均值正式跌破140ms (139.0ms!)、路由均值155.0ms (n=512=2^9!)、SLA突破四千万美元 ($40.05M!)、月省破$240K ($241.6K/月!)、3.36亿向量 & 16ms闭环七冠里程碑：第三代2.0GPa超高强汽车钢热镀锌控相、内氧化露点 & 点焊防LME微裂纹选型 FAQ
     ├── fabric-green-emethanol-co2-hydrogenation-catalyst-sintering-distillation-bunkering-vs-4clouds-faq.md ★ 🏆 R116 250项单测四分之一千大关 (250/250!)、端到端正式跌破20ms (18ms!)、140.0ms本体均值大关、3.32亿向量、156.0ms矩阵均值 & 省94.4% TCO七冠里程碑：绿色电制甲醇e-Methanol CO2加氢催化剂防烧结、双效精馏 & 远洋船FuelEU加注选型 FAQ
