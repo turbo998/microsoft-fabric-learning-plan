@@ -39,6 +39,7 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
+    ├── fabric-sodium-ion-battery-prussian-white-hard-carbon-plating-vs-4clouds-faq.md ★ 🏆 R111 99.80%准确率历史新高 (487/488!)、端到端正式跌破30ms (28ms!)、145.0ms本体均值、240单测、月省破$230K ($230.2K/月!)、省94.2% TCO & 3.12亿向量七冠里程碑：钠离子电池普鲁士白正极除水 & 硬碳闭孔防析钠选型 FAQ
     ├── fabric-reusable-methalox-rocket-ffsc-preburner-turbopump-plume-oes-vs-4clouds-faq.md ★ 🏆 R110 第110轮历史大关 (R110!)、115篇双语FAQ、30ms端到端闭环大关、3.08亿向量、162.0ms矩阵均值、146.0ms本体均值 & 省94.1% TCO七冠里程碑：可复用液氧甲烷FFSC火箭350bar预燃室抑振 & 尾焰OES防烧蚀选型 FAQ
     ├── fabric-rare-earth-magnet-ndfeb-solvent-extraction-sintering-gbd-vs-4clouds-faq.md ★ R109 480场景大关 (n=480!)、省94.1% TCO新高、守护破$37M ($37.25M!)、3.04亿向量、163.0ms矩阵均值、147.0ms本体均值 & 32ms闭环七冠里程碑：烧结钕铁硼稀土永磁120级萃取 & 重稀土晶界扩散GBD选型 FAQ
     ├── fabric-2nm-gaa-nanosheet-atomic-layer-etch-selective-epi-bspdn-vs-4clouds-faq.md ★ 🏆 R108 历史性突破3.00亿向量大关 (300M / 0.3B!)、115大行业本体 (n=115!)、164.0ms矩阵均值、148.0ms本体均值、34ms闭环 & 省94.0% TCO七冠里程碑：2nm/14A全环绕栅极GAA纳米片ALE & 背面供电BSPDN选型 FAQ
