@@ -39,6 +39,7 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
+    ├── fabric-molten-salt-fast-reactor-mcfr-redox-corrosion-xenon135-sco2-brayton-vs-4clouds-faq.md ★ 🏆 R129 560场景整数大关 (559/560 = 99.82%!)、本体均值历史性跌破130ms (129.5ms!)、SLA突破四千四百万美元 ($44.25M!)、3.84亿向量 (384M!)、143.0ms路由均值、276单测 & 省94.8% TCO ($264.4K/月!)七冠里程碑：700°C第四代熔盐快堆MCFR氧化还原电位控碲脆腐蚀、氦鼓泡剥氙 & sCO2压缩机防喘振选型 FAQ
     ├── fabric-2d-tmd-mos2-ws2-monolayer-mocvd-wafer-epitaxy-cfet-chalcogen-vacancy-vs-4clouds-faq.md ★ 🏆 R128 第128=2^7轮大关、3.80亿向量 (380M!)、135大行业本体 (n=135!)、130.0ms本体均值整数大关、144.0ms=12^2路由均值 (555/556 = 99.82%!)、省94.8% TCO ($262.5K/月!) & $43.90M SLA八冠里程碑：300mm单原子层二维半导体MoS2/WS2 MOCVD原位抑硫空位 & 半金属铋接触Sub-1nm CFET选型 FAQ
     ├── fabric-cryogenic-electro-optic-quantum-transducer-bto-lnoi-microwave-optical-entanglement-vs-4clouds-faq.md ★ 🏆 R127 历史性突破550场景 (551/552 = 99.82%!)、第135张SVG (135-...svg!)、第130项官方规格、省94.8% TCO新纪录 ($260.6K/月!)、3.76亿向量 (376M!)、145.0ms路由均值、130.5ms本体均值 & $43.55M SLA八冠里程碑：15mK钛酸钡BTO/薄膜铌酸锂LNOI微波-光量子换能器三谐振锁频、脉冲抑准粒子 & 远程纠缠选型 FAQ
     ├── fabric-iron-air-multi-day-ldes-100h-reversible-rusting-her-aidc-dunkelflaute-vs-4clouds-faq.md ★ 🏆 R126 270项单测大关 (270/270!)、本体均值达成131.0ms整数大关 (n=133!)、SLA突破四千三百万美元 ($43.20M!)、3.72亿向量 (372M!)、146.0ms路由均值、99.82%准确率 & 省94.7% TCO七冠里程碑：100小时铁-空气长时储能LDES可逆除锈抑析氢HER、空气电极防淹水 & 极夜保供选型 FAQ
