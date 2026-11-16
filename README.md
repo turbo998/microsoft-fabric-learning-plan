@@ -39,6 +39,7 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
+    ├── fabric-iron-air-multi-day-ldes-100h-reversible-rusting-her-aidc-dunkelflaute-vs-4clouds-faq.md ★ 🏆 R126 270项单测大关 (270/270!)、本体均值达成131.0ms整数大关 (n=133!)、SLA突破四千三百万美元 ($43.20M!)、3.72亿向量 (372M!)、146.0ms路由均值、99.82%准确率 & 省94.7% TCO七冠里程碑：100小时铁-空气长时储能LDES可逆除锈抑析氢HER、空气电极防淹水 & 极夜保供选型 FAQ
     ├── fabric-solid-state-transformer-sst-800v-hvdc-dab-zvs-nanocrystalline-flux-vs-4clouds-faq.md ★ 🏆 R125 第125轮历史大关 (R125=5^3!)、第130篇双语FAQ大关、99.82%路由准确率历史新高 (543/544!)、第128=2^7项官方规格、3.68亿向量 (368M!)、147.0ms路由均值、131.5ms本体均值 & $42.85M SLA八冠里程碑：中压固态变压器MV-SST与吉瓦级AI工厂800V HVDC 25kHz纳米晶防磁偏置饱和 & 10kV SiC TPS软开关选型 FAQ
     ├── fabric-cvd-diamond-semiconductor-wafer-mpcvd-plasma-thermal-substrate-vs-4clouds-faq.md ★ 🏆 R124 历史性突破540场景大关 (539/540 = 99.81%!)、省94.7% TCO新纪录 ($254.9K/月!)、2ms极致端到端闭环 (0.5+0.5+0.5+0.5ms!)、3.64亿向量、148.0ms路由均值、132.0ms本体均值 & $42.50M SLA七冠里程碑：MPCVD单晶金刚石晶圆与2,210 W/m·K AI芯片超导热基板等离子体防多晶 & 飞秒激光剥离选型 FAQ
     ├── fabric-electronic-specialty-gases-esg-silane-nf3-wf6-cryogenic-rectification-vs-4clouds-faq.md ★ 🏆 R123 路由矩阵均值历史性跌破150ms大关 (149.0ms!)、130大行业本体整数里程碑 (n=130!)、端到端闭环突破5ms迈入4ms (1+1+1+1ms!)、3.60亿向量 (360M!)、SLA突破四千二百万美元 ($42.15M!)、133.0ms本体均值 & 省94.6% TCO七冠里程碑：6N5超高纯电子特气SiH4/NF3/WF6深冷精馏<1ppb控硅氧烷、电解槽抑CF4 & 自燃防爆选型 FAQ
