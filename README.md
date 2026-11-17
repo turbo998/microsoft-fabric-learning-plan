@@ -39,6 +39,34 @@ microsoft-fabric-learning-plan/
 └── comparisons/
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.md    ★ 标杆必读：OneLake 零拷贝与 Fabric IQ 本体 vs 四大云竞对选型 FAQ (中文 · 2026-11-08/09)
     ├── fabric-onelake-iq-vs-4clouds-selection-faq.en.md ★ Flagship Selection FAQ Guide (English · 2026-11-08/09)
+    ├── fabric-cpg-beverage-trade-promotion-demand-sensing-hedging-faq.md ★ 🏆 R172 (2026-11-18) 历史性跌破20ms迈入19ms闭环、第180张架构SVG (180.svg!)、第175项官方规格、121.0/108.0ms双整数均值、5.56亿向量 ($70.0K/月整DRAM!) & 守护突破$59M ($59.30M!) SLA：快消品(CPG)与食品饮料通路促销优化(TPO)、POS实时需求感知与原材料期货套保选型 FAQ
+    ├── fabric-industrial-equipment-aftermarket-servitization-spare-parts-faq.md ★ 🏆 R171 20ms=5×4整十对称闭环、360单测大关、突破5.50亿 (552M>0.55B!) 向量 & 月省$343.0K：工业装备制造与重工售后IoT预测性维保派单、全球备件多级库存协同与设备即服务(EaaS)选型 FAQ
+    ├── fabric-enterprise-contact-center-ccaas-agent-assist-wfm-faq.md ★ 🏆 R170整十轮次里程碑、第175篇双语FAQ (350文档!)、122.0/109.0ms双整数均值、21ms闭环、5.48亿向量 ($3,000/月整!) & 月省破$340K ($341.2K/月!)：企业智能客服中心(CCaaS)、实时坐席辅助与智能排班(WFM)选型 FAQ
+    ├── fabric-biopharma-clinical-trial-pharmacovigilance-gmp-release-faq.md ★ 🏆 R169=13^2平方轮次、720=6!阶乘场景大关、本体均值破110ms (109.5ms!)、22ms回文闭环 & 守护破$58M ($58.25M!) SLA：生物医药临床试验(DCT)、药物警戒(PV)与CDMO GMP批次放行选型 FAQ
+    ├── fabric-retail-banking-consumer-credit-mortgage-collections-agent-faq.md ★ 🏆 R168 第175大行业本体 (n=175!)、123.0/110.0ms双整数均值、省95.9% TCO新纪录 ($337.6K/月!)、23ms闭环 & 5.40亿向量：零售银行、消费信贷与房贷开放银行授信、M0预警与合规催收选型 FAQ
+    ├── fabric-enterprise-erp-sap-s4hana-acdoca-treasury-finops-faq.md ★ 🏆 R167 第175张架构SVG、第170项规格、24ms对称闭环 & 月省破$335K：集团财务与多ERP (SAP ACDOCA+Oracle+D365) 零拷贝合并与司库动态贴现选型 FAQ
+    ├── fabric-automotive-dealer-ev-charging-warranty-claims-faq.md ★ 🏆 R166 25=5^2ms平方闭环、124.0/111.0ms双整数均值、350单测 & 破$57M SLA：汽车经销商(DMS)、超充网络与售后三包反骗保选型 FAQ
+    ├── fabric-media-ott-retail-media-network-ssai-cleanroom-royalty-faq.md ★ 🏆 R165里程碑、170篇双语FAQ (340文档)、26ms回文闭环 & 5.28亿向量：流媒体(OTT)与零售媒体(RMN)动态广告、无Cookie清洁室与版权分账选型 FAQ
+    ├── fabric-property-casualty-insurance-actuarial-ubi-catastrophe-claims-faq.md ★ 🏆 R164 突破700场景大关 (699/700=99.86%!)、125.0/112.0ms均值、27=3^3ms立方闭环 & 月省破$330K：财险与车险UBI精算、巨灾暴露与再保摊回选型 FAQ
+    ├── fabric-commercial-real-estate-smart-building-hvac-tenant-finops-faq.md ★ 🏆 R163 第170大行业本体 (n=170!)、28ms对称闭环 & 破$56M SLA：商业地产、购物中心与智慧园区BACnet空调节能与租约精算选型 FAQ
+    ├── fabric-logistics-3pl-coldchain-fleet-routing-otif-billing-faq.md ★ 🏆 R162 第170张SVG、99.86%准确率新纪录、29ms破30ms闭环 & 169=13^2本体：3PL物流、冷链干线、港口免滞箱费与OTIF自动对账选型 FAQ
+    ├── fabric-airlines-hospitality-dynamic-revenue-irops-loyalty-faq.md ★ 🏆 R161 30ms整十闭环、512M=2^9×10^6向量 & 月省$325.0K整 (-95.8% TCO)：航司、酒店与商旅NDC动态收益、IROPS旅客安置与常旅客防欺诈选型 FAQ
+    ├── fabric-qsr-fmcg-chain-store-operations-coldchain-markdown-faq.md ★ 🏆 R160里程碑、165篇FAQ/330文档、127.0/114.0ms均值 & 破$55M SLA：万店餐饮连锁与生鲜零售实时POS对账、冷链动态打折与外卖ROI选型 FAQ
+    ├── fabric-power-utility-energy-trading-vpp-carbon-analytics-faq.md ★ 🏆 R159 680场景、32=2^5ms对称闭环 & 月省破$320K：电力能源现货交易、虚拟电厂(VPP)与24/7绿证碳核算选型 FAQ
+    ├── fabric-telecom-customer-churn-network-ops-field-agent-faq.md ★ 🏆 R158 历史性突破五亿 (500M=0.50B!) 向量、676=26^2场景 & 128.0=2^7ms均值：电信运营商防流失、5G专网SLA与装维智能体选型 FAQ
+    ├── fabric-cross-border-ecommerce-global-supply-chain-finops-faq.md ★ 🏆 R157 第165张SVG、160项规格 & 破$54M SLA：跨境电商海外仓WMS、WCO HS海关归类与汇率FinOps选型 FAQ
+    ├── fabric-enterprise-data-governance-rls-cls-obo-catalog-faq.md ★ 🏆 R156 129.0/116.0ms均值、330单测 & 月省破$315K：企业级数据治理、目录联邦与RLS/CLS/OLS/OBO权限透传选型 FAQ
+    ├── fabric-enterprise-data-agent-text2sql-fabric-genie-cortex-oss-faq.md ★ 🏆 R155里程碑、160篇FAQ/320文档、36ms=6^2ms闭环 & 省95.7% TCO：企业自然语言问数 (Fabric Data Agent vs Genie vs Cortex vs OSS) 四强选型 FAQ
+    ├── fabric-five-cloud-data-platform-tco-inflection-migration-faq.md ★ 🏆 R154 660场景、130.0ms整十路由均值、484M=22^2×10^6向量 & $53.00M整SLA：五大云数据平台全景选型、TCO拐点与零停机迁移 FAQ
+    ├── fabric-banking-insurance-realtime-antifraud-graph-claims-faq.md ★ 🏆 R153 第160大本体 (n=160!)、4.80亿向量 & 月省$310.0K整：银行与保险实时支付反欺诈、6跳ISO GQL团伙图谱与多模态理赔选型 FAQ
+    ├── fabric-healthcare-pharma-commercial-compliance-rwe-analytics-faq.md ★ 🏆 R152 39ms破40ms闭环、第160张SVG & 破$52M SLA：医疗医药商业合规、RWE OMOP与医保DRG控费选型 FAQ
+    ├── fabric-medallion-lakehouse-lambda-kappa-streaming-batch-architecture-faq.md ★ 🏆 R151 99.85%准确率、40ms整十对称闭环 & 省95.6% TCO：现代湖仓Medallion (铜-银-金) 与批流一体 (Lambda vs Kappa vs MLV) 选型 FAQ
+    ├── fabric-saas-gaming-multitenant-embedded-analytics-retention-attribution-faq.md ★ 🏆 R150里程碑、155篇FAQ & 132.0/119.0ms均值：B2B SaaS与游戏多租户嵌入式分析、实时ROAS归因与动态RLS选型 FAQ
+    ├── fabric-manufacturing-automotive-supply-chain-connected-vehicle-maintenance-faq.md ★ 🏆 R149 640场景、本体均值破120ms & 破$51M SLA：制造与汽车多级供应链ATP协同、车联网看板与预测性维保选型 FAQ
+    ├── fabric-enterprise-vector-hybrid-search-ai-search-pgvector-mosaic-milvus-faq.md ★ 🏆 R148 月省破$300K ($300.5K/月!) & 120.0ms整十均值：企业级向量与混合检索 (Azure AI Search + DiskANN vs pgvector vs Mosaic vs Milvus) 选型 FAQ
+    ├── fabric-oltp-to-olap-zero-etl-mirroring-vs-debezium-kafka-fivetran-faq.md ★ 🏆 R147 省95.5% TCO、150项规格 & 44ms对称闭环：OLTP-to-OLAP零拷贝同步 (Fabric Mirroring vs Debezium+Kafka vs Fivetran) 选型 FAQ
+    ├── fabric-financial-research-hybrid-rag-text2sql-wealth-agent-vs-4clouds-faq.md ★ 🏆 R146 134.0/121.0ms=11^2均值 & 破$50M ($50.20M!) SLA：金融投研与财富管理财报契约RAG + 审计级NL2DAX混合智能体选型 FAQ
+    ├── fabric-retail-ecommerce-customer360-realtime-recommendation-agent-vs-4clouds-faq.md ★ 🏆 R145 150篇双语FAQ、4.48亿向量 & $49.85M GMV：零售电商全渠道Customer 360、智能导购问数与实时ATP推荐选型 FAQ
     ├── fabric-orbital-solar-aidc-space-compute-radhard-seu-lhp-radiator-fso-vs-4clouds-faq.md ★ 🏆 R144 第144=12^2轮大关、620场景整数大关 (619/620 = 99.84%!)、135.0ms路由均值整数大关、122.0ms本体均值整数大关 (n=151!)、4.44亿向量 & 省95.4% TCO历史新纪录 ($292.9K/月!)：天基太阳能AI智算中心Orbital AIDC抗辐射SEL限流洗刷 & 地影液氨热管防冻旁通选型 FAQ
     ├── fabric-sub-terahertz-6g-isac-ris-metasurface-spherical-beam-squint-inp-vs-4clouds-faq.md ★ 🏆 R143 第150大行业本体 (n=150!)、4.40亿向量 (440M!)、月省破$290K ($291.0K/月!)、守护破$49M ($49.15M!) & 48ms对称闭环：亚太赫兹6G通感算一体140-300GHz ISAC & 10,240单元RIS超表面42ps真延时波束斜视补偿选型 FAQ
     ├── fabric-enzymatic-dna-synthesis-storage-tdt-cmos-mea-nanopore-fountain-code-vs-4clouds-faq.md ★ 🏆 R142 第150张架构SVG (150-...svg!)、第145项规范、49ms跌破50ms闭环、123.0ms本体均值整数大关 (n=149!) & 136.0ms路由均值整数大关：水相无细胞酶促DNA合成与艾字节DNA存储64M-Spot CMOS-MEA防脱嘌呤选型 FAQ
